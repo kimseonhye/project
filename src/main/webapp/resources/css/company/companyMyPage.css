@@ -1,0 +1,34 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.signUp {
+ margin: 50px 135px;
+}
+
+.box {
+	width: 30vw;
+	height: 30vh;
+	border: 0px solid gray;
+	border-radius: 5%;
+	margin: 50px;
+	box-shadow: 1px 1px 3px gray;
+	box-sizing: border-box;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s;
+}
+
+.box:hover {
+    background-color: orange;
+    cursor: pointer;
+ }
+.sub-text {
+    font-size: smaller;
+    color: grey;
+    margin-top: 0;
+}

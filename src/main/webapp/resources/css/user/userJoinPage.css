@@ -1,0 +1,118 @@
+#section_wrap {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 40px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	margin-top: 10px; /* 10 pixels of margin at the top */
+	margin-bottom: 20px; /* 20 pixels of margin at the bottom */
+}
+
+#section_wrap dl {
+	margin-bottom: 30px; /* Adds a 20px gap between each field set */
+}
+
+#section_wrap dt {
+	margin-bottom: 5px;
+	/* Adds a 5px gap between the field label and input */
+}
+
+#section_wrap dd {
+	margin-bottom: 10px;
+	/* Adds a 10px gap between the input and the next label */
+}
+
+.create_account_form input[type="text"], .create_account_form input[type="password"],
+	.create_account_form select, .create_account_form input[type="email"] {
+	margin-bottom: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	box-sizing: border-box;
+	padding: 10px;
+}
+
+#hr {
+	margin: 30px 0;
+}
+
+#buttons {
+	margin-top: 10px; /* Adds 10 pixels of space above the buttons */
+	margin-bottom: 10px; /* Adds 10 pixels of space below the buttons */
+}
+
+.IDConfirm {
+	background-color: white; /* 獄쏄퀗瑗랃옙�깆뱽 占쎈�源�(#4CAF50)占쎌눖以� 占썬끉�� */
+	color: black;
+	border: 1px solid;
+	padding: 10px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 150px;
+}
+
+.IDConfirm:hover {
+	background-color: lightgray; /* 筌띾뜆��옙占� 占쎈챶苡� 占쏙옙 獄쏄퀗瑗랃옙占� 癰귨옙野껓옙 */
+}
+
+.userJoinButton {
+	background-color: black; /* 獄쏄퀗瑗랃옙�깆뱽 ��몿而숋옙占�(#f44336)占쎌눖以� 占썬끉�� */
+	color: white;
+	border: 1px solid;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 120px;
+}
+
+.userJoinButton:hover {
+	background-color: #3b3b3b;
+}
+
+/* 占쏙옙�� 甕곌쑵�� 占썬끋占쏙옙占� */
+.cancel-button {
+	background-color: white; /* 獄쏄퀗瑗랃옙�깆뱽 占쎈�源�(#4CAF50)占쎌눖以� 占썬끉�� */
+	color: black;
+	border: 1px solid;
+	padding: 5px 20px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	border-radius: 4px;
+	width: 120px;
+}
+
+.cancel-button:hover {
+	background-color: lightgray; /* 筌띾뜆��옙占� 占쎈챶苡� 占쏙옙 獄쏄퀗瑗랃옙占� 癰귨옙野껓옙 */
+}
+
+#star {
+	color: orange;
+}
+
+.create_account_form span {
+	font-size: 16px;
+}
+
+/* Style for the direct input container */
+.create_account_form #directInput, .create_account_form #emailDirectInput
+	{
+	margin-top: 10px;
+}
+
+#MidPhone1, #LastPhone1 {
+	width: 100px; /* Adjust the width as per your preference */
+}

@@ -1,0 +1,28 @@
+.sub-text {
+	font-size: smaller;
+    color: grey;
+}
+
+div {
+    display: flex; 
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px; /* Adjust the value as needed */
+}
+
+button {
+	background-color: #ff0000; /* Red color example */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+	margin-left: 200px;
+}
+
+.go-back:hover {
+    color: grey;
+}

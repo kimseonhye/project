@@ -1,0 +1,114 @@
+#section_wrap {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 40px;
+ border: 1px solid #ccc;
+ border-radius: 10px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ margin-top: 10px; 
+ margin-bottom: 20px;
+}
+
+#section_wrap dl {
+ margin-bottom: 30px;
+}
+
+#section_wrap dt {
+ margin-bottom: 5px;
+}
+
+#section_wrap dd {
+ margin-bottom: 10px;
+}
+
+.create_account_form input[type="text"], .create_account_form input[type="password"],
+ .create_account_form select, .create_account_form input[type="email"] {
+ margin-bottom: 10px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ font-size: 16px;
+ box-sizing: border-box;
+ padding: 10px;
+}
+
+#hr {
+ margin: 30px 0;
+}
+
+#buttons {
+ margin-top: 10px;
+ margin-bottom: 10px;
+}
+
+.IDConfirm {
+ background-color: white;
+ color: black;
+ border: 1px solid;
+ padding: 10px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 4px;
+ width: 150px;
+}
+
+.IDConfirm:hover {
+ background-color: lightgray; 
+}
+
+.userJoinButton {
+ background-color: black; 
+ color: white;
+ border: 1px solid;
+ padding: 5px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 4px;
+ width: 120px;
+}
+
+.userJoinButton:hover {
+ background-color: #3b3b3b;
+}
+
+.cancel-button {
+ background-color: white; 
+ color: black;
+ border: 1px solid;
+ padding: 5px 20px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
+ margin: 4px 2px;
+ cursor: pointer;
+ border-radius: 4px;
+ width: 120px;
+}
+
+.cancel-button:hover {
+ background-color: lightgray;
+}
+
+#star {
+ color: orange;
+}
+
+.create_account_form span {
+ font-size: 16px;
+}
+
+/* Style for the direct input container */
+.create_account_form #directInput, .create_account_form #emailDirectInput
+ {
+ margin-top: 10px;
+}
+
+#MidPhone1, #LastPhone1 {
+ width: 100

@@ -1,0 +1,45 @@
+
+
+.container {
+ display: flex;
+ justify-content: center;
+}
+
+.box {
+ width: 30vw;
+ height: 30vh;
+ border: 0px solid gray;
+ border-radius: 5%;
+ margin: 50px;
+ box-shadow: 1px 1px 3px gray;
+ box-sizing: border-box;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ transition: background-color 0.3s;
+}
+
+.material-symbols-outlined {
+ font-size: 50px;
+ padding: 25px;
+}
+
+.sub_title {
+	margin: 50px 135px;
+}
+
+.sub_text {
+    font-size: smaller;
+    color: grey;
+    margin-top: 0;
+}
+
+.box span, .box p {
+    color: black;
+}
+
+.box:hover {
+    background-color: orange; /* Change background color on hover */
+ }

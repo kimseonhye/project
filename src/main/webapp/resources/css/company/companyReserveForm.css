@@ -1,0 +1,65 @@
+h2 {
+	text-align: center;
+}
+
+.box {
+    max-width: 500px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the box horizontally */
+    padding: 40px;
+    border: 1px solid #ccc;
+}
+
+.box div {
+	display: flex;
+    margin-bottom: 0; /* Add some space between sections */
+    align-items: center;
+}
+
+.box hr {
+	border: 0;
+    height: 1px;
+    background: grey; /* Adjust the color as needed */
+    margin: 5px 0; /* Adjust the spacing above and below the hr */
+}
+
+.material-symbols-sharp {
+    margin-right: 10px; /* Add some space between the icon and text */
+    color: #c0c0c0;
+    font-variation-settings: 'FILL' 1, 'wght' 100, 'GRAD' 200, 'opsz' 24;
+}
+
+button {
+	background-color: black;
+    color: white;
+    padding: 10px 20px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    margin: 30px;
+}
+
+.button-container{
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+
+#consumer_info {
+	display: unset;
+}
+
+#reserve_info {
+	display: unset;
+}
+
+.area {
+	margin-top: 2vh;
+}
+
+.name {
+	width: 30%;
+}
+
+.value {
+	width: 70%;
+}

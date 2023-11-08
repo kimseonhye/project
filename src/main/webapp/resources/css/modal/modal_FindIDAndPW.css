@@ -1,0 +1,47 @@
+.modal-body {
+ text-align: center;
+ font-size: 15px;
+ margin: 20px;
+}
+
+.modal-content p {
+ font-size: 15px;
+ margin: 5px;
+ text-align: center;
+}
+
+}
+.button:hover {
+ border-bottom: 1px solid lightgray;
+}
+
+.modal-body-P {
+ margin: 50px;
+}
+
+.modal-body-form {
+ border: 1px solid gray;
+ margin: 20px;
+ padding: 20px;
+ font-size: 13px;
+}
+
+.btn btn-dark {
+ width: 50px;
+ margin: 30px 0;
+}
+
+.modal-body-form input {
+ width: 250px;
+ padding: 8px;
+ margin: 3px;
+}
+
+.nav-item a {
+ color: black;
+ margin: 0; /* 얘가 있어야 아이디, 비밀번호 찾기가 가운데 정렬 */
+}
+
+.modal-body-form input[type="submit"] {
+ font-size: 13px;
+}

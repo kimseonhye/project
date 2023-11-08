@@ -1,0 +1,130 @@
+html {
+	overflow: hidden;
+}
+
+body {
+	width: 100vw;
+	height: 200vh;
+	margin: auto;
+}
+
+.container {
+	margin: auto;
+	width: 100vw;
+	height: 100vh;
+}
+
+.scroll_down {
+	display: flex;
+	margin: auto;
+	position: absolute;
+	bottom: 2vh;
+	left: 50vw;
+	cursor: pointer;
+}
+
+#main_logo {
+	display: flex;
+	margin: auto;
+	position: absolute;
+	left: 35vw;
+	top: 40vh;
+}
+
+a:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+.hamburger {
+	cursor: pointer;
+}
+
+#hamburger_icon {
+	margin: 10px;
+}
+
+.dropdown_option {
+	display: none;
+	position: absolute;
+	overflow: auto;
+	width: 200px;
+	left: -150px;
+}
+
+a {
+	display: block;
+	margin: 15px 0 0 50px;
+	text-decoration: none;
+	text-align: end;
+	color: black;
+}
+
+.dropdown:hover .dropdown_option {
+	display: block;
+}
+
+.picture {
+	display: flex;
+	margin: auto;
+	position: absolute;
+}
+
+#main_pic01 {
+	left: 80vw;
+	top: 20vh;
+}
+
+#main_pic01 img {
+	width: 250px;
+	height: 350px;
+	object-fit: cover;
+}
+
+#main_pic02 {
+	left: 12vw;
+	top: 4vh;
+}
+
+#main_pic02 img {
+	width: 250px;
+	height: 350px;
+	object-fit: cover;
+}
+
+#main_pic03 {
+	left: 60vw;
+	top: 60vh;
+}
+
+#main_pic03 img {
+	width: 300px;
+	height: 200px;
+	object-fit: cover;
+}
+
+#main_pic04 {
+	left: 1vw;
+	top: 45vh;
+}
+
+#main_pic04 img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.footer_info {
+	position: relative;
+	width: 100vw;
+	bottom: -17vh;
+}
+
+#hamburger_icon:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+#scroll {
+	margin: 0;
+}

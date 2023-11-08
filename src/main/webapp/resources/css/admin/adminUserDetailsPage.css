@@ -1,0 +1,90 @@
+.bodyMargin {
+	margin: 20px 140px;
+}
+
+#u_h1 {
+	display: flex;
+	justify-content: space-between; /* 양쪽 끝에 정렬 */
+	align-items: center; /* 수직 가운데 정렬 */
+}
+
+#u_h2 {
+	margin: 40px 0 10px;
+}
+
+a.btn.btn-outline-danger {
+	margin: 0;
+}
+
+/* 사용자 정의 CSS */
+/* Flexbox 레이아웃 설정 */
+#container {
+	margin: 40px 0;
+}
+
+#container p {
+	font-size: 20px;
+}
+
+#section {
+	margin-top: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%; /* 테이블 넓이 설정 */
+	margin: 0 auto; /* 수평 가운데 정렬 */
+	text-align: center;
+}
+
+th, td {
+	padding: 10px; /* 셀 안의 내용과 셀 테두리 사이 여백 설정 */
+	border: 1px solid #ddd; /* 셀 테두리 설정 */
+}
+
+th {
+	background-color: #f2f2f2; /* 테이블 헤더 배경색 설정 */
+}
+
+td a {
+	margin: 0;
+	text-decoration: none;
+}
+
+td a.btn {
+	margin: 0;
+	width: 80px;
+}
+
+#u_table p {
+	text-align: right;
+	margin: 0 0 10px;
+}
+
+#container1 {
+	text-align: center; /* 텍스트 중앙 정렬 */
+	margin: 30px 0;
+}
+
+#container1 button {
+	padding: 10px 20px;
+	width: 150px;
+	background-color: white;
+	border: none;
+	margin: 0 100px; /* 각 링크 사이 여백 설정 */
+	font-size: 20px; /* 폰트 크기 설정 */
+	color: gray; /* 기본 글자색 */
+}
+
+#container1 .uncheck-button:hover {
+	color: #ff6600; /* 마우스 호버 시 글자색 변경 */
+}
+
+#container1 .check-button {
+	color: black; /* "승인"의 글자색을 검정색으로 설정 */
+	border-bottom: 2px solid black;
+}
+
+#container1 form {
+	display: inline-block;
+}

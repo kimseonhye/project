@@ -1,0 +1,44 @@
+.container {
+ display: flex;
+ justify-content: center;
+}
+
+.box {
+ width: 30vw;
+ height: 30vh;
+ border: 0px solid gray;
+ border-radius: 5%;
+ margin: 50px;
+ box-shadow: 1px 1px 3px gray;
+ box-sizing: border-box;
+ text-align: center;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ transition: background-color 0.3s;
+ /* Add transition for smooth effect */
+}
+
+.signUp {
+ margin: 50px 135px;
+}
+
+.box svg {
+ margin-bottom: 10px; /* Adjust the space between icon and text */
+}
+
+.box:hover {
+ background-color: orange; /* Change background color on hover */
+ cursor: pointer;
+}
+.box a {
+	margin : 0;
+}
+
+/* 개인, 기업 회원 누를 시 글자색 변하지 않고 밑줄 없애는 css */
+.custom-link {
+ color: #000; /* 원하는 글자색으로 변경하세요 */
+ text-decoration: none; /* 밑줄 제거 */
+ cursor: pointer;
+}

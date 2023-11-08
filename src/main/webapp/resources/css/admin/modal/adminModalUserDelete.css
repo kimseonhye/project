@@ -1,0 +1,16 @@
+.modal-body {
+	font-size: 15px;
+}
+
+.modal-body p {
+	margin: 10px;
+}
+
+.modal-body textarea {
+	border: 1px solid gray;
+	padding: 30px;
+}
+
+.modal-footer a {
+	margin: 0;
+}

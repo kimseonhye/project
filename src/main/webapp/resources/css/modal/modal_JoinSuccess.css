@@ -1,0 +1,13 @@
+.modal-body {
+	text-align: center;
+	font-size: 20px;
+	margin: 20px;
+}
+
+.modal-body p {
+	margin: 5px;
+}
+
+.modal-footer button {
+	font-size: 15px;
+}

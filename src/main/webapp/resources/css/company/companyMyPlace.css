@@ -1,0 +1,59 @@
+#main_container {
+	text-align: center;
+}
+
+.my_place {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.square-container {
+	text-align: center;
+}
+
+.square {
+	width: 25vw;
+	height: 30vh;
+	border: 1px solid gray;
+	margin: 30px;
+}
+
+.square > img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+h2 {
+	margin-left: 20px;
+}
+
+.sub-text {
+    color: grey;
+    font-size: smaller;
+}
+
+.pagination {
+	display: flex;
+	justify-content: center;
+}
+
+.page-link {
+  color: #000; 
+  background-color: #fff;
+  border: 1px solid #ccc; 
+}
+.page-item.active .page-link {
+ z-index: 1;
+ color: #555;
+ font-weight:bold;
+ background-color: #f1f1f1;
+ border-color: #ccc;
+ 
+}
+.page-link:focus, .page-link:hover {
+  color: #000;
+  background-color: #fafafa; 
+  border-color: #ccc;
+}

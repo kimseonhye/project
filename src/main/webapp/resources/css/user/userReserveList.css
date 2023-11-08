@@ -1,0 +1,129 @@
+/* 메뉴 컨테이너 스타일 */
+.bodyMargin {
+	margin: 20px 140px;
+}
+
+.menu-container {
+	text-align: center; /* 가운데 정렬 */
+	padding: 10px; /* 패딩 설정 */
+}
+
+/* 메뉴 아이템 스타일 */
+.menu-item {
+	font-size: 25px; /* 글자 크기 설정 */
+	text-decoration: none; /* 링크 밑줄 제거 */
+	margin: 0 100px; /* 메뉴 아이템 간격 조절 */
+}
+/* 호텔 정보 컨테이너 스타일 */
+.hotel-info {
+	display: flex; /* 호텔 사진과 정보를 가로로 정렬 */
+	align-items: center; /* 수직 중앙 정렬 */
+	margin-bottom: 20px; /* 간격 조절 */
+}
+
+/* 호텔 사진 스타일 */
+.hotel-image img {
+	width: 300px; /* 사진 너비 설정 */
+	height: auto; /* 높이 자동 조정 */
+	margin-right: 50px; /* 호텔 사진과 정보 사이 간격 조절 */
+}
+
+/* 호텔 정보 스타일 */
+.hotel-details {
+	display: flex; /* 호텔 이름과 룸 이름을 가로로 정렬 */
+	flex-direction: column; /* 세로로 쌓이도록 설정 */
+	align-items: center; /* 수직 중앙 정렬 */
+	margin-top: 100px;
+}
+
+/* 호텔 이름 스타일 */
+.hotel-details h2 {
+	font-size: 30px; /* 호텔 이름 글자 크기 설정 */
+	margin-top: 0px; /* 기본 마진 제거 */
+}
+
+/* 룸 이름 스타일 */
+.hotel-details p {
+	font-size: 20px; /* 룸 이름 글자 크기 설정 */
+	margin: 10px; /* 기본 마진 제거 */
+}
+
+.parent {
+	position: relative;
+	width: 100%; /* 화면 가로 폭 전체를 사용하도록 설정 */
+}
+
+.hotel-price {
+	position: fixed;
+	top: 600px;
+	right: 0;
+	font-size: 20px; /* 글자 크기 설정 (예: 16px) */
+}
+
+
+.button-group {
+	display:flex;
+	flex-direction: row nowrap;
+    justify-content: flex-end; 
+    align-items: center; 
+	position:relative;
+	margin:0;
+	width:auto;
+	height:22px;
+	right:0;
+	bottom:0;
+}
+.button-group button {
+    padding: 10px 20px; 
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 150px; 
+    height:50px; 
+    margin-bottom: 30px; 
+}
+.btn-reservation {
+	border: 2px solid gray;
+	background-color: white;
+	color: black;
+}
+
+.btn-cancel {
+	background-color: #ff0000;
+	color: white;
+}
+
+.btn-review {
+	background-color: #000;
+	color: white;
+}
+
+#menu-container {
+	text-align: center; /* 텍스트 중앙 정렬 */
+	margin: 30px 0;
+}
+
+#menu-container a, #menu-container p {
+	padding: 10px 20px;
+	width: 150px;
+	background-color: white;
+	border: none;
+	margin: 0 100px; /* 각 링크 사이 여백 설정 */
+	font-size: 20px; /* 폰트 크기 설정 */
+	color: gray; /* 기본 글자색 */
+}
+
+#menu-container a:hover {
+	color: #ff6600; /* 마우스 호버 시 글자색 변경 */
+}
+
+#menu-container #check {
+	color: black; /* "승인"의 글자색을 검정색으로 설정 */
+	border-bottom: 2px solid black;
+}
+
+#menu-container a, #menu-container p{
+	display: inline-block;
+}

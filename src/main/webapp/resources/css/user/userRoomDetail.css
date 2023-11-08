@@ -1,0 +1,337 @@
+.wrapper {
+    display: flex;
+    justify-content: center; /* 가운데 정렬 */
+	margin: 50px;	
+}
+.custom-hr {
+  width: 90%; /* 가로 전체 너비 설정 */
+  border: 1px solid black !important;
+}
+
+
+/*왼쪽 내용*/
+.left-section {
+            flex: 1.5;
+            padding: 50px;
+            margin-right: 50px;
+}
+/*오른쪽 내용*/
+.right-section {
+            flex: 1;
+            padding: 30px;
+            position: sticky;
+            margin-left: 50px;
+            top: 60px;
+            max-height: 50vh;
+            /* 브라우저 높이의 반 */
+
+}
+
+/* 사진 넘겨보는 css */
+/* 초기화 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+/* 보여줄 구간의 높이와 넓이 설정 */
+.gallery {
+	max-width: 630px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative; /* 화살표 위치를 상대 위치로 설정 */
+}
+
+img {
+	max-width: 100%;
+	max-height: 400px;
+	cursor: pointer;
+	transition: transform 0.3s;
+}
+
+.prev-button, .next-button {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.7); /* 화살표 배경 색상 변경 */
+	color: white; /* 화살표 텍스트 색상 변경 */
+	padding: 4px 6px; /* 화살표 박스 크기 조절 */
+	border: none;
+	font-size: 20px;
+	cursor: pointer;
+	z-index: 1;
+	border-radius: 3px; /* 화살표 박스 둥글게 만들기 */
+}
+
+.prev-button {
+	left: 10px;
+}
+
+.next-button {
+	right: 10px;
+}
+
+.prev-button:hover, .next-button:hover {
+	background-color: rgba(128, 128, 128, 0.11);
+}
+
+/* 영역 나누기 */
+.centered-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* 수평 가운데 정렬을 추가합니다. */
+}
+.circle-icon {
+    background-color: #c0c0c0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.inner-icon {
+    font-size: 24px;
+    color: #000000;
+}
+
+.text {
+    font-size: 18px;
+    color: #333;
+}
+
+
+/* 왼쪽에 텍스트 스타일 */
+/* 최대 수용 인원 스타일 */
+.max-occupancy {
+    display: flex;
+    padding-left:10px;
+    white-space: nowrap;
+}
+/*최대 수용 인원 */
+.max-occupancy-text {
+    font-weight: bold;
+    margin-right: 430px;
+}
+
+/* 제공되는 서비스 스타일 */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.checkbox-group label {
+    flex: 1;
+    white-space: nowrap;
+    font-weight: bold;
+}
+.table-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 10px; /* 왼쪽 여백 추가 */
+}
+.form-check {
+    margin-left: -27px;
+}
+.form-check.custom-checkbox {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin-left: 0;
+}
+
+
+/* 체크박스 레이블 스타일 */
+.checkbox-group .form-check-label {
+    font-family: sans-serif;
+    font-weight: 500;
+    color: #888;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+    white-space: nowrap;
+    cursor: pointer !important;
+}
+
+/* 제공되는 서비스 텍스트 스타일 */
+.checkbox-group .service-text {
+    font-weight: bold;
+    margin-right: 5px;
+    white-space: nowrap;
+}
+
+/* 나머지 스타일은 그대로 유지 */
+.checkbox-group .form-check-input {
+    display: none;
+}
+
+.checkbox-group .form-check-label .material-icons {
+    font-size: 30px;
+    margin-right: 4px;
+}
+
+.checkbox-group .form-check-input:checked + .form-check-label .material-icons {
+    color: #333;
+}
+
+.checkbox-group .form-check-label .material-icons {
+    color: #ccc;
+}
+
+.checkbox-group::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/* 테이블 배치 체크박스 겉 부분 */
+.selected {
+    background-color: #c0c0c0 !important;
+    color: #000000!important;
+    border: none !important;
+    border-radius: 10px !important; /* 둥글게 만들기 */
+
+}
+/*테이블 배치 겉부분*/
+.custom-checkbox {
+    cursor: pointer !important;
+    align-items: center; /* 세로 중앙 정렬 */
+    display: flex; /* Flex로 변경 */
+    padding: 0px !important;
+    border: 2px solid #ccc !important;
+    border-radius: 10px !important;
+    transition: background-color 0.3s, color 0.3s !important;
+    
+}
+
+.custom-checkbox .material-icons {
+    font-size: 30px;
+}
+
+.custom-checkbox label {
+    display: flex;
+    flex-direction: column; /* 아이콘과 텍스트를 세로로 배치 */
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0 20px;
+    cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox:hover {
+	cursor: pointer;
+    background-color: #f0f0f0;
+}
+
+.custom-checkbox input[type="checkbox"]:hover + label span.material-icons {
+    color: #007bff;
+}
+.custom-checkbox input[type="checkbox"]:checked + .form-check-label .material-icons {
+    color: #333;
+}
+.custom-checkbox .form-check-label .material-icons {
+    color: #ccc;
+}
+
+
+/* "취소 환불 규정" 섹션의 스타일 */
+.cancellation-policy {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.cancellation-policy .max-occupancy-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.cancellation-policy .data-area {
+    font-size: 12px;
+    color: #333;
+    line-height: 1.5;
+    text-align: justify;
+    white-space: normal;
+    word-wrap: break-word;
+    width: 100%;
+}
+
+span.table-label {
+    display: block;
+    font-weight: bold;
+    margin-left: 0; /* 왼쪽 여백 제거 */
+}
+
+.hotel-info-box{
+	border: 1px solid black;
+    padding: 30px;
+}
+
+/* 총 예약 금액 스타일 수정 */
+.total-amount {
+	margin-top:50px;
+	margin-bottom:10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-amount-label {
+    font-size: 18px; /* 글자 크기 조절 */
+    margin-right: 10px; /* 라벨과 금액 사이의 간격 조절 */
+}
+
+.total-amount-value {
+	font-weight: bold;
+    font-family: serif, sans-serif; /* 원하는 글꼴 설정 */
+    font-size: 30px; /* 글자 크기 조절 */
+}
+
+
+/* 버튼 스타일 수정 */
+.right-section .buttons {
+    display: flex;
+    justify-content: space-between; /* 버튼 간의 간격을 최대화 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.right-section .buttons button {
+    flex: 1; /* 버튼의 크기를 동일하게 설정 */
+    width: auto; /* 내용에 맞게 자동 조정 */
+    height: 55px;
+    padding: 5px; /* 버튼 내부 여백 */
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: medium;
+    display: flex; /* 내용을 가로로 정렬하기 위해 필요 */
+    justify-content: center; /* 가로 중앙 정렬 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+.right-section .buttons .heart-button {
+    margin-right: 1px; /* 버튼 사이의 간격을 줌 */
+}
+
+.right-section .buttons .reserve-button {
+    margin-left: 1px; /* 버튼 사이의 간격을 줌 */
+}
+
+
+
+

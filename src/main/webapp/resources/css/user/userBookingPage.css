@@ -1,0 +1,254 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	text-align: center;
+	background-color: #f0f0f0;
+	padding: 20px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	padding: 50px 150px;
+}
+
+.left-box {
+	flex: 2;
+	padding: 50px;
+	border: 1px solid black;
+	margin-right: 50px;
+}
+
+.right-box {
+	flex: 1;
+	padding: 30px;
+	border: 1px solid black;
+	position: sticky;
+	margin-left: 80px;
+	top: 20px;
+	max-height: 50vh;
+	/* 브라우저 높이의 반 */
+	overflow-y: auto;
+	/* 스크롤이 필요한 경우 스크롤 표시 */
+}
+
+.line {
+	width: 95%;
+	margin-bottom: 20px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+label {
+	display: block;
+	/* font-weight: bold; */
+}
+
+.material-symbols-sharp {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-right: 10px; /* 아이콘과 텍스트 사이 간격 조절 */
+    color: #c0c0c0;
+    font-variation-settings: 'FILL' 1, 'wght' 100, 'GRAD' 200, 'opsz' 24;
+}
+
+.title {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.input-group input[type="text"], .input-group input[type="email"],
+	.input-group input[type="number"], .input-group select, .input-group textarea
+	{
+	text-align: left;
+	width: 70%;
+	padding: 10px;
+	margin-top: 5px;
+	border: 1px solid #ccc;
+}
+
+.maintitle {
+	font-size: 18px;
+	font-weight: bold;
+	padding: 0px 15px 15px 10px;
+}
+
+dl {
+    text-align: center; /* 가운데 정렬 */
+}
+
+dl dt {
+    text-align: left; /* 왼쪽 정렬 유지 */
+}
+
+dl dd {
+    display: inline-block; 
+    text-align: left; /* 왼쪽 정렬 유지 */
+    margin: 0 auto; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#selected-value {
+	margin: auto;
+}
+
+.reserve-button {
+	height: 40px;
+	width: 90%;
+	padding: 10px;
+	background-color: black;
+	color: white;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+	font-size: medium;
+}
+
+.reserve-button:hover {
+	background-color: white;
+	color: black;
+	border: 1px solid black;
+	transition: 0.3s;
+}
+
+#b_comment {
+	width: 100%;
+}
+
+.input-group {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/* 레이블과 입력 필드 간격 조절 */
+}
+
+.star {
+	color: orange;
+}
+
+.ment {
+	margin-left: 28%;
+	color: gray;
+	font-size: 11px;
+}
+
+.input-group label {
+	margin-right: 10px;
+	text-align: left;
+	/* 레이블을 왼쪽 정렬 */
+	flex: 1;
+	/* 레이블과 입력 필드의 넓이를 동일하게 설정 */
+}
+
+/* 행사 정보의 입력 칸과 라벨을 붙여줌. */
+.input-group+.form-group {
+	margin-top: 15px;
+}
+
+.reservation-summary {
+	margin-top: 20px;
+	padding-top: 20px;
+	border-top: 1px solid #ccc;
+}
+
+.reservation-summary h2 {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+.reservation-summary p {
+	font-size: 20px;
+}
+
+.table-option {
+	width: 200px;
+	height: 70px;
+	border: 1px solid gray;
+	border-radius: 5px;
+	margin: 15px;
+	text-align: center;
+	/* flex: 1; */
+}
+
+.centered-container {
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	margin-top: 15px;
+}
+
+.circle-icon {
+	background-color: #d2d2d2;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10px;
+}
+
+.inner-icon {
+	font-size: 24px;
+	color: #000000;
+}
+
+.material-icons {
+	color: #bebebe;
+	margin-right: 30px;
+}
+
+.box-content {
+	color: #bebebe;
+}
+
+.text {
+	margin: 20px;
+	padding-top: 5px;
+	font-size: 18px;
+	color: #333;
+}
+
+.box {
+	width: 11vw;
+	height: 8vh;
+	border: 0px solid gray;
+	border-radius: 10px;
+	margin: 10px;
+	box-shadow: 1px 1px 3px gray;
+	box-sizing: border-box;
+	text-align: left;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.3s;
+	font-size: 13px;
+	display: inline-flex;
+	cursor: pointer;
+}
+
+.box:hover {
+	background-color: #F49551;
+}
+
+.pl{
+    width: 200px;
+    border: 1px solid #C4C4C4;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 12px 13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+#contact, #domain {
+	width: 70%;
+}

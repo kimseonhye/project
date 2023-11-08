@@ -1,0 +1,70 @@
+h2 {
+	text-align: center;
+}
+
+.line {
+	width: 95%;
+}
+
+.container {
+	margin-top: 3%;
+}
+
+#list {
+	justify-content: space-between;
+}
+
+#list span	{
+	display: block; /* span을 블록 요소로 변경하여 일렬로 정렬 */
+    text-align: right; /* 텍스트를 오른쪽 정렬 */
+    padding: 10px;
+    margin-top: 5px;
+    width: 40%;
+}
+
+.sub-text{
+	text-align: center;
+	align-items: center;
+}
+
+.box {
+    max-width: 500px; 
+    margin: 0 auto; 
+    padding: 40px;
+    border: 1px solid #ccc;
+}
+
+.box div {
+	display: flex;
+    margin-bottom: 0; 
+    align-items: center;
+}
+
+.box hr {
+	border: 0;
+    height: 1px;
+    background: grey; 
+    margin: 5px 0;
+}
+
+.material-symbols-sharp {
+    margin-right: 10px; 
+    color: #c0c0c0;
+    font-variation-settings: 'FILL' 1, 'wght' 100, 'GRAD' 200, 'opsz' 24;
+}
+
+.button {
+	background-color: black;
+    color: white;
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.button-container{
+    display: flex;
+  	justify-content: center;
+  	align-items: center;
+}

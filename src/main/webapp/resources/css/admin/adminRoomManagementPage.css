@@ -1,0 +1,119 @@
+.bodyMargin {
+	margin: 20px 140px;
+}
+#container1 {
+	text-align: center; /* 텍스트 중앙 정렬 */
+	margin : 20px 0;
+}
+
+#container1 button {
+	padding: 10px 20px;
+	width: 150px;
+	background-color: white;
+	border: none;
+	margin: 0 100px; /* 각 링크 사이 여백 설정 */
+	font-size: 20px; /* 폰트 크기 설정 */
+	color: gray; /* 기본 글자색 */
+}
+
+#container1 .uncheck-button:hover {
+	color: #ff6600; /* 마우스 호버 시 글자색 변경 */
+}
+
+#container1 .check-button {
+	color: black; /* "승인"의 글자색을 검정색으로 설정 */
+	border-bottom: 2px solid black;
+}
+
+#container1 form {
+	display: inline-block;
+}
+
+.container2 {
+	display: flex;
+	justify-content: space-between; /* 양쪽 끝에 정렬 */
+	align-items: center; /* 수직 가운데 정렬 */
+	padding: 10px; /* 여백 추가 */
+	margin-top: 20px;
+}
+
+.search form {
+	display: flex;
+	height: 40px;
+}
+
+.search input {
+	border: 1px solid black;
+	border-radius: 8px;
+}
+
+.search input[type="text"] {
+	margin-right: 10px; /* 입력 필드 간 간격 설정 */
+}
+
+.search input[placeholder] {
+	padding : 10px; 
+	width : 160px;
+}
+
+.dropdown button {
+	width: 160px;
+	height: 40px;
+}
+
+.dropdown-menu {
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-menu a {
+	color: black; /* 텍스트 색상을 검정색으로 변경 */
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+	margin: 0;
+	font-size: 16px;
+	text-align: center;
+}
+
+.dropdown:hover .dropdown-menu {
+	display: block;
+}
+
+.dropdown-menu a:hover {
+	background-color: #f1f1f1;
+}
+
+#section {
+	margin-top: 20px;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%; /* 테이블 넓이 설정 */
+	margin: 0 auto; /* 수평 가운데 정렬 */
+	text-align: center;
+}
+
+th, td {
+	padding: 10px; /* 셀 안의 내용과 셀 테두리 사이 여백 설정 */
+	border: 1px solid #ddd; /* 셀 테두리 설정 */
+}
+
+th {
+	background-color: #f2f2f2; /* 테이블 헤더 배경색 설정 */
+}
+
+td a {
+	margin: 0;
+	text-decoration: none;
+}
+
+td a.btn {
+	margin: 0;
+	width: 80px;
+}
+
+#u_table p {
+	text-align: right;
+	margin: 0 0 10px;
+}

@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+#warpper {
+	position: relative;
+	width: 100vw;
+	height: 100vh;
+	margin: auto;
+}
+
+#requirements {
+	display: flex;
+	height: 150px;
+	justify-content: center;
+	align-items: center;
+	background-color: #c0c0c0;
+}
+
+.requirement {
+	width: 300px;
+	text-align: center;
+}
+
+.search_box {
+	width: 140px;
+	height: 65px;
+	border-radius: 50px;
+	text-align: center;
+	line-height: 65px;
+	font-size: 25px;
+	color: white;
+	cursor: pointer;
+	opacity: 1;
+	background-color: black;
+}
+
+.search_box:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}
+
+#dropbox {
+	width: 100%;
+	height: 2vh;
+}
+
+#selecter {
+	margin-left: 86vw;
+	width: 150px;
+	height: 25px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.name {
+	font-size: 25px;
+	font: bold;
+	margin: auto;
+}
+
+.room_list {
+	position: relative;
+	height: 215px;
+	margin: 27px 0px 50px 0px;
+	border-bottom: solid 3px black;
+	max-width: 1150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hotel_pic {
+	float: left;
+	height: 100%;
+	width: 300px;
+}
+
+.hotel_info {
+	float: left;
+	height: 100%;
+	margin-left: 2%;
+}
+
+.info {
+	margin: auto;
+}
+
+.price {
+	margin: 3% 0 0 0;
+}
+
+.standard {
+	margin: auto;
+}
+
+.more {
+	background-color: black;
+	color: white;
+	width: 200px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	cursor: pointer;
+	opacity: 1;
+}
+
+.more:hover {
+	opacity: 0.5;
+	transition: 0.3s;
+}

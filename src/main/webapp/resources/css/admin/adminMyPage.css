@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+.maintitle {
+	margin: 50px 140px 0;
+}
+
+.box {
+	display: flex;
+	width: 30vw;
+	height: 30vh;
+	border: 0px solid gray;
+	border-radius: 5%;
+	margin: 50px 50px 150px;
+	box-shadow: 1px 1px 3px gray;
+	box-sizing: border-box;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	transition: background-color 0.3s;
+	cursor: pointer;
+}
+
+span.material-symbols-outlined {
+	font-size: 40px;
+}
+
+.type {
+	color: gray;
+}
+
+.usermg {
+	padding-top: 16px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.placemg {
+	padding-top: 16px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.customermg {
+	padding-top: 16px;
+	font-size: 22px;
+	font-weight: bold;
+}
+
+.box:hover {
+	background-color: orange; /* Change background color on hover */
+}

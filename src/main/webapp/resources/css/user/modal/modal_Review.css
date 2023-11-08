@@ -1,0 +1,25 @@
+.modal-body b {
+	font-size: 30px;
+}
+
+.modal-body button {
+	font-size: 15px;
+	width: 90px;
+	text-align: center;
+}
+
+.modal-body-button {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-between; /* 양쪽 끝에 정렬 */
+	align-items: center; /* 수직 가운데 정렬 */
+	padding: 10px; /* 여백 추가 */
+}
+
+.stars {
+	font-size: 30px;
+}
+
+.star {
+	cursor: pointer;
+}
